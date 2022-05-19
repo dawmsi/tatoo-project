@@ -37,7 +37,7 @@
       }
     }
     .logo {
-      background-image: url(/images/logo.png);
+      background-image: url(../images/logo.png);
       background-repeat: no-repeat;
       background-position: center center;
       width: 260px;
@@ -113,7 +113,7 @@ body {
   grid-template-columns: 1fr;
   .header {
     padding: 30px;
-    background-image: url(/images/Slide.png);
+    background-image: url(../images/Slide.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -131,7 +131,7 @@ body {
         display: grid;
         justify-items: center;
         align-items: center;
-        background-image: url(/images/studio.png);
+        background-image: url(../images/studio.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -154,7 +154,7 @@ body {
         font-family: "Times New Roman";
 
         .ph-icon {
-          background-image: url(/images/design.png);
+          background-image: url(../images/design.png);
           background-repeat: no-repeat;
           background-position: center center;
           margin: auto;
@@ -177,45 +177,45 @@ body {
         background-size: cover;
       }
       .pic1 {
-        background-image: url("/images/img (12).png");
+        background-image: url("../images/img (12).png");
       }
       .pic2 {
-        background-image: url("/images/img (11).png");
+        background-image: url("../images/img (11).png");
       }
       .pic3 {
-        background-image: url("/images/img (10).png");
+        background-image: url("../images/img (10).png");
       }
       .pic4 {
-        background-image: url("/images/img (9).png");
+        background-image: url("../images/img (9).png");
       }
       .pic5 {
-        background-image: url("/images/img (8).png");
+        background-image: url("../images/img (8).png");
       }
       .pic6 {
-        background-image: url("/images/img (7).png");
+        background-image: url("../images/img (7).png");
       }
       .pic7 {
-        background-image: url("/images/img (6).png");
+        background-image: url("../images/img (6).png");
       }
       .pic8 {
-        background-image: url("/images/img (5).png");
+        background-image: url("../images/img (5).png");
       }
       .pic9 {
-        background-image: url("/images/img (4).png");
+        background-image: url("../images/img (4).png");
       }
       .pic10 {
-        background-image: url("/images/img (3).png");
+        background-image: url("../images/img (3).png");
       }
       .pic11 {
-        background-image: url("/images/img (2).png");
+        background-image: url("../images/img (2).png");
       }
       .pic12 {
-        background-image: url("/images/img (1).png");
+        background-image: url("../images/img (1).png");
       }
     }
 
     .testimonial {
-      background-image: url("/images/tr.png");
+      background-image: url("../images/tr.png");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -268,7 +268,7 @@ body {
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr;
       .team-part {
-        background-image: url(../images/team.png);
+        background-image: url(..../images/team.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -364,7 +364,7 @@ body {
       }
     }
     .twitter {
-      background-image: url("/images/tw.png");
+      background-image: url("../images/tw.png");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -377,7 +377,7 @@ body {
       font-weight: bold;
       height: 350px;
       .twicon {
-        background-image: url(/images/twicon.png);
+        background-image: url(../images/twicon.png);
         background-position: center center;
         background-repeat: no-repeat;
         grid-column-start: 2;
