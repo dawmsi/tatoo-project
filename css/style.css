@@ -33,7 +33,7 @@
   color: black;
 }
 .container .menu .logo {
-  background-image: url(/images/logo.png);
+  background-image: url(../images/logo.png);
   background-repeat: no-repeat;
   background-position: center center;
   width: 260px;
@@ -100,7 +100,7 @@ body {
 }
 body .header {
   padding: 30px;
-  background-image: url(/images/Slide.png);
+  background-image: url(../images/Slide.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -117,7 +117,7 @@ body .main .about .about-part {
   display: grid;
   justify-items: center;
   align-items: center;
-  background-image: url(/images/studio.png);
+  background-image: url(../images/studio.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -140,7 +140,7 @@ body .main .about .about-ph {
   font-family: "Times New Roman";
 }
 body .main .about .about-ph .ph-icon {
-  background-image: url(/images/design.png);
+  background-image: url(../images/design.png);
   background-repeat: no-repeat;
   background-position: center center;
   margin: auto;
@@ -162,43 +162,43 @@ body .main .about .about-picture {
   background-size: cover;
 }
 body .main .about .pic1 {
-  background-image: url("/images/img (12).png");
+  background-image: url("../images/img (12).png");
 }
 body .main .about .pic2 {
-  background-image: url("/images/img (11).png");
+  background-image: url("../images/img (11).png");
 }
 body .main .about .pic3 {
-  background-image: url("/images/img (10).png");
+  background-image: url("../images/img (10).png");
 }
 body .main .about .pic4 {
-  background-image: url("/images/img (9).png");
+  background-image: url("../images/img (9).png");
 }
 body .main .about .pic5 {
-  background-image: url("/images/img (8).png");
+  background-image: url("../images/img (8).png");
 }
 body .main .about .pic6 {
-  background-image: url("/images/img (7).png");
+  background-image: url("../images/img (7).png");
 }
 body .main .about .pic7 {
-  background-image: url("/images/img (6).png");
+  background-image: url("../images/img (6).png");
 }
 body .main .about .pic8 {
-  background-image: url("/images/img (5).png");
+  background-image: url("../images/img (5).png");
 }
 body .main .about .pic9 {
-  background-image: url("/images/img (4).png");
+  background-image: url("../images/img (4).png");
 }
 body .main .about .pic10 {
-  background-image: url("/images/img (3).png");
+  background-image: url("../images/img (3).png");
 }
 body .main .about .pic11 {
-  background-image: url("/images/img (2).png");
+  background-image: url("../images/img (2).png");
 }
 body .main .about .pic12 {
-  background-image: url("/images/img (1).png");
+  background-image: url("../images/img (1).png");
 }
 body .main .testimonial {
-  background-image: url("/images/tr.png");
+  background-image: url("../images/tr.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -349,7 +349,7 @@ body .main .team .team-box .team-join button {
   border: none;
 }
 body .main .twitter {
-  background-image: url("/images/tw.png");
+  background-image: url("../images/tw.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -363,7 +363,7 @@ body .main .twitter {
   height: 350px;
 }
 body .main .twitter .twicon {
-  background-image: url(/images/twicon.png);
+  background-image: url(../images/twicon.png);
   background-position: center center;
   background-repeat: no-repeat;
   grid-column-start: 2;
