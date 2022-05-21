@@ -192,6 +192,18 @@ $icon-google: #b32e2e;
   }
 }
 
+button {
+  background-color: $background-button;
+  font-family: "Times New Roman";
+  color: $text-btn;
+  text-transform: uppercase;
+  border: none;
+}
+button:hover {
+  box-shadow: 0 0 3px $background-button;
+  text-shadow: 0 0 1px $text-btn;
+}
+
 //!_________________________________________________
 // main styling
 
@@ -409,10 +421,6 @@ body {
           button {
             width: 300px;
             height: 40px;
-            background-color: $background-button;
-            color: $text-btn;
-            font-family: "Times New Roman";
-            border: none;
           }
         }
       }
@@ -544,12 +552,7 @@ body {
         button {
           align-self: flex-start;
           width: 85%;
-          background-color: $background-button;
-          font-family: "Times New Roman";
-          color: $text-btn;
           padding: 20px;
-          text-transform: uppercase;
-          border: none;
         }
       }
     }

@@ -149,6 +149,19 @@
      object-fit: cover;
 }
 
+button {
+  background-color: #999679;
+  font-family: "Times New Roman";
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+}
+
+button:hover {
+  box-shadow: 0 0 3px #999679;
+  text-shadow: 0 0 1px #fff;
+}
+
 body {
   background-color: #f2efe5;
   display: grid;
@@ -365,10 +378,6 @@ body .main .team .team-box .team-join .input-container input {
 body .main .team .team-box .team-join button {
   width: 300px;
   height: 40px;
-  background-color: #999679;
-  color: #fff;
-  font-family: "Times New Roman";
-  border: none;
 }
 body .main .twitter {
   background-image: url("../images/tw.png");
@@ -505,12 +514,7 @@ body .main .contact .contact-form textarea::placeholder {
 body .main .contact .contact-form button {
   align-self: flex-start;
   width: 85%;
-  background-color: #999679;
-  font-family: "Times New Roman";
-  color: #fff;
   padding: 20px;
-  text-transform: uppercase;
-  border: none;
 }
 body .main .map {
   border: 0;
