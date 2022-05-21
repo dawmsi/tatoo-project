@@ -8,14 +8,14 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 }
-.container .menu .section {
+.container .menu .half-nav {
   display: grid;
   justify-content: center;
   align-content: center;
   gap: 25px;
   grid-auto-flow: column;
 }
-.container .menu .section li:hover {
+.container .menu .half-nav li:hover {
   border-bottom: 2px solid black;
   text-shadow: 0 0 1px black;
 }
