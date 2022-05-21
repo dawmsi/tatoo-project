@@ -251,7 +251,7 @@ body .main .team {
   grid-template-rows: 1fr 1fr;
 }
 body .main .team .team-part {
-  background-image: url(../images/team.png);
+  background-image: url(..../images/team.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -381,6 +381,9 @@ body .main .twitter p {
   font-weight: bold;
   font-style: italic;
 }
+body .main .gallery > .gallery-item:hover > .hover-panel {
+  visibility: visible;
+}
 body .main .gallery {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -397,11 +400,53 @@ body .main .gallery .gallery-part {
   min-width: 50%;
   min-height: 25%;
 }
+body .main .gallery .gallery-item {
+  position: relative;
+}
+body .main .gallery .gallery-item .hover-panel {
+  padding: 25% 10%;
+  background-color: rgba(151, 149, 131, 0.8);
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas: "search search search" "share info like";
+}
+body .main .gallery .gallery-item .hover-panel a:hover {
+  text-shadow: 0 0 5px #646253;
+}
+body .main .gallery .gallery-item .hover-panel a:nth-child(1) {
+  grid-area: search;
+}
+body .main .gallery .gallery-item .hover-panel a:nth-child(2) {
+  grid-area: share;
+}
+body .main .gallery .gallery-item .hover-panel a:nth-child(3) {
+  grid-area: info;
+}
+body .main .gallery .gallery-item .hover-panel a:nth-child(4) {
+  grid-area: like;
+}
+body .main .gallery .gallery-item .hover-panel .genericon {
+  font-size: 28px;
+  font-weight: 600;
+  color: black;
+  width: 28px;
+  height: 28px;
+}
 body .main .gallery .gallery-item img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  background-color: #989579;
 }
 body .main .contact {
   background-color: #e9e7d9;
