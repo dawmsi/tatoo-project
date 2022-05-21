@@ -17,6 +17,7 @@
 }
 .container .menu .section li:hover {
   border-bottom: 2px solid black;
+  text-shadow: 0 0 1px black;
 }
 .container .menu .menu-btn {
   border-bottom: 2px solid transparent;
@@ -352,7 +353,7 @@ body .main .team .team-box .team-join .input-container input {
   padding: 0 10px 0 10px;
   height: 40px;
   width: calc(100% - 22px);
-  border: 1px solid #000000;
+  border: 1px solid black;
   outline: none;
 }
 body .main .team .team-box .team-join button {

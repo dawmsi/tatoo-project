@@ -19,6 +19,7 @@
       grid-auto-flow: column;
       li:hover {
         border-bottom: 2px solid black;
+        text-shadow: 0 0 1px black;
       }
     }
     .menu-btn {
@@ -154,8 +155,8 @@
 }
 
 //!_________________________________________________
-
 // main styling
+
 body {
   background-color: #f2efe5;
   display: grid;
@@ -365,7 +366,7 @@ body {
               padding: 0 10px 0 10px;
               height: 40px;
               width: calc(100% - 22px);
-              border: 1px solid #000000;
+              border: 1px solid black;
               outline: none;
             }
           }
