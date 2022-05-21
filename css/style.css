@@ -92,6 +92,54 @@
   color: #b32e2e;
 }
 
+.image-container {
+  position: relative;
+}
+.image-container .hover-panel {
+  padding: 25% 10%;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas: "search search search" "share info like";
+}
+.image-container .hover-panel a:hover {
+  text-shadow: 0 0 5px #646253;
+}
+.image-container .hover-panel a:nth-child(1) {
+  grid-area: search;
+}
+.image-container .hover-panel a:nth-child(2) {
+  grid-area: share;
+}
+.image-container .hover-panel a:nth-child(3) {
+  grid-area: info;
+}
+.image-container .hover-panel a:nth-child(4) {
+  grid-area: like;
+}
+.image-container .hover-panel .genericon {
+  font-size: 28px;
+  font-weight: 600;
+  color: black;
+  width: 28px;
+  height: 28px;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #989579;
+}
+
 body {
   background-color: #f2efe5;
   display: grid;
@@ -104,6 +152,9 @@ body .header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+body .main .about > .image-container:hover > .hover-panel {
+  visibility: visible;
 }
 body .main .about {
   display: grid;
@@ -156,46 +207,8 @@ body .main .about .about-ph .p2 {
   font-size: 16px;
   padding: 10px 15px;
 }
-body .main .about .about-picture {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-body .main .about .pic1 {
-  background-image: url("../images/img (12).png");
-}
-body .main .about .pic2 {
-  background-image: url("../images/img (11).png");
-}
-body .main .about .pic3 {
-  background-image: url("../images/img (10).png");
-}
-body .main .about .pic4 {
-  background-image: url("../images/img (9).png");
-}
-body .main .about .pic5 {
-  background-image: url("../images/img (8).png");
-}
-body .main .about .pic6 {
-  background-image: url("../images/img (7).png");
-}
-body .main .about .pic7 {
-  background-image: url("../images/img (6).png");
-}
-body .main .about .pic8 {
-  background-image: url("../images/img (5).png");
-}
-body .main .about .pic9 {
-  background-image: url("../images/img (4).png");
-}
-body .main .about .pic10 {
-  background-image: url("../images/img (3).png");
-}
-body .main .about .pic11 {
-  background-image: url("../images/img (2).png");
-}
-body .main .about .pic12 {
-  background-image: url("../images/img (1).png");
+body .main .about .hover-panel {
+  background-color: rgba(207, 203, 186, 0.6);
 }
 body .main .testimonial {
   background-image: url("../images/tr.png");
@@ -381,7 +394,7 @@ body .main .twitter p {
   font-weight: bold;
   font-style: italic;
 }
-body .main .gallery > .gallery-item:hover > .hover-panel {
+body .main .gallery > .image-container:hover > .hover-panel {
   visibility: visible;
 }
 body .main .gallery {
@@ -389,6 +402,9 @@ body .main .gallery {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
   min-height: 1200px;
+}
+body .main .gallery .hover-panel {
+  background-color: rgba(150, 148, 136, 0.6);
 }
 body .main .gallery .gallery-part {
   background-color: #afaeaa;
@@ -399,54 +415,6 @@ body .main .gallery .gallery-part {
   align-items: center;
   min-width: 50%;
   min-height: 25%;
-}
-body .main .gallery .gallery-item {
-  position: relative;
-}
-body .main .gallery .gallery-item .hover-panel {
-  padding: 25% 10%;
-  background-color: rgba(151, 149, 131, 0.8);
-  visibility: hidden;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: absolute;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-items: center;
-  align-items: center;
-  grid-template-areas: "search search search" "share info like";
-}
-body .main .gallery .gallery-item .hover-panel a:hover {
-  text-shadow: 0 0 5px #646253;
-}
-body .main .gallery .gallery-item .hover-panel a:nth-child(1) {
-  grid-area: search;
-}
-body .main .gallery .gallery-item .hover-panel a:nth-child(2) {
-  grid-area: share;
-}
-body .main .gallery .gallery-item .hover-panel a:nth-child(3) {
-  grid-area: info;
-}
-body .main .gallery .gallery-item .hover-panel a:nth-child(4) {
-  grid-area: like;
-}
-body .main .gallery .gallery-item .hover-panel .genericon {
-  font-size: 28px;
-  font-weight: 600;
-  color: black;
-  width: 28px;
-  height: 28px;
-}
-body .main .gallery .gallery-item img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  background-color: #989579;
 }
 body .main .contact {
   background-color: #e9e7d9;
