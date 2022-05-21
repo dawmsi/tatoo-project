@@ -138,7 +138,6 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  background-color: #989579;
 }
 
 body {
@@ -188,7 +187,7 @@ body .main .about .about-ph {
   justify-content: center;
   align-items: center;
   padding: 80px 0;
-  color: black;
+  color: #000;
   font-family: "Times New Roman";
 }
 body .main .about .about-ph .ph-icon {
@@ -209,7 +208,7 @@ body .main .about .about-ph .p2 {
   padding: 10px 15px;
 }
 body .main .about .hover-panel {
-  background-color: rgba(207, 203, 186, 0.6);
+  background-color: rgba(207, 204, 186, 0.6);
 }
 body .main .testimonial {
   background-image: url("../images/tr.png");
@@ -241,7 +240,6 @@ body .main .testimonial .testimonial-closing {
 }
 body .main .testimonial .testimonial-body {
   font-size: 24px;
-  color: #f2efe5;
   font-weight: bold;
   font-style: italic;
   text-align: justify;
@@ -255,7 +253,6 @@ body .main .testimonial .testimonial-autor {
   align-self: flex-start;
   padding-right: 5%;
   font-size: 18px;
-  color: #f2efe5;
   font-style: italic;
   text-align: center;
   text-transform: uppercase;
@@ -286,7 +283,7 @@ body .main .team .team-box .teammate-image {
 }
 body .main .team .team-box .teammate-card {
   align-items: center;
-  background-color: #c5c2b7;
+  background-color: #cbc7b5;
   color: black;
   font-family: "Times New Roman";
   text-align: center;
@@ -308,7 +305,7 @@ body .main .team .team-box .teammate-card .card-info {
   grid-row-start: 3;
   text-align: left;
   font-size: 14px;
-  color: black;
+  color: #000;
   font-weight: 400;
   font-family: "Open Sans";
 }
@@ -353,14 +350,14 @@ body .main .team .team-box .team-join .input-container input {
   padding: 0 10px 0 10px;
   height: 40px;
   width: calc(100% - 22px);
-  border: 1px solid black;
+  border: 1px solid #000;
   outline: none;
 }
 body .main .team .team-box .team-join button {
   width: 300px;
   height: 40px;
-  background-color: #9e9c8b;
-  color: white;
+  background-color: #999679;
+  color: #fff;
   font-family: "Times New Roman";
   border: none;
 }
@@ -394,7 +391,6 @@ body .main .twitter p {
   grid-column-start: 2;
   font-size: 22px;
   line-height: 22px;
-  color: #f2efe5;
   font-weight: bold;
   font-style: italic;
 }
@@ -411,7 +407,7 @@ body .main .gallery .hover-panel {
   background-color: rgba(150, 148, 136, 0.6);
 }
 body .main .gallery .gallery-part {
-  background-color: #afaeaa;
+  background-color: #afab9b;
   grid-column-start: 1;
   grid-column-end: 3;
   display: grid;
@@ -421,7 +417,7 @@ body .main .gallery .gallery-part {
   min-height: 25%;
 }
 body .main .contact {
-  background-color: #e9e7d9;
+  background-color: #e7e4cf;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -475,7 +471,7 @@ body .main .contact .contact-form textarea {
   font-family: "Times New Roman";
   line-height: 24px;
   width: auto;
-  border: 1px solid black;
+  border: 1px solid #000;
   padding: 20px;
 }
 body .main .contact .contact-form input::-moz-placeholder, body .main .contact .contact-form textarea::-moz-placeholder {
@@ -500,9 +496,9 @@ body .main .contact .contact-form textarea::placeholder {
 body .main .contact .contact-form button {
   align-self: flex-start;
   width: 85%;
-  background-color: #9e9c8b;
+  background-color: #999679;
   font-family: "Times New Roman";
-  color: white;
+  color: #fff;
   padding: 20px;
   text-transform: uppercase;
   border: none;
@@ -517,7 +513,7 @@ body .main .map #map {
   filter: progid:DXImageTransform.Microsoft.BasicImage(grayScale=1);
 }
 body .footer {
-  background-color: #aeaeae;
+  background-color: #adadad;
   display: inline-grid;
   grid-template-rows: 1fr 2fr 1fr;
   align-items: center;
@@ -525,7 +521,7 @@ body .footer {
 body .footer .copywr {
   font-size: 12px;
   line-height: 22px;
-  color: #000000;
+  color: #000;
   font-weight: 400;
   font-family: "Roboto";
   text-align: center;

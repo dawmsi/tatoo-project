@@ -1,5 +1,6 @@
 //?Need variables?
 $main: #000;
+$main-light: #f2efe5;
 
 $part: #010101;
 
@@ -10,15 +11,14 @@ $text-placeholder: #9c9a95;
 
 $mark-map: #8b623c;
 
-$background-main: #f2efe5;
 $background-card: #cbc7b5;
 $background-button: #999679;
 $background-part: #afab9b;
 $background-contact: #e7e4cf;
 $background-footer: #adadad;
 
-$transparent-about: #cfccba;
-$transparent-gallery: #9a977a;
+$transparent-about: rgba(207, 204, 186, 0.6);
+$transparent-gallery: rgba(154, 151, 122, 0.6);
 $hover-shadow: #646253;
 
 $icon-facebook: #1063fc;
@@ -179,7 +179,6 @@ $icon-google: #b32e2e;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-color: #989579;
   }
 }
 
@@ -187,7 +186,7 @@ $icon-google: #b32e2e;
 // main styling
 
 body {
-  background-color: #f2efe5;
+  background-color: $main-light;
   display: grid;
   grid-template-rows: 500px auto 500px;
   grid-template-columns: 1fr;
@@ -233,7 +232,7 @@ body {
         justify-content: center;
         align-items: center;
         padding: 80px 0;
-        color: black;
+        color: $main;
         font-family: "Times New Roman";
 
         .ph-icon {
@@ -255,7 +254,7 @@ body {
         }
       }
       .hover-panel {
-        background-color: rgba(207, 203, 186, 0.6);
+        background-color: $transparent-about;
       }
     }
 
@@ -271,7 +270,7 @@ body {
       justify-items: center;
       align-items: center;
       font-family: "Times New Roman";
-      color: #f2efe5;
+      color: $main-light;
       font-weight: bold;
       height: 350px;
       .testimonial-opening,
@@ -288,7 +287,6 @@ body {
       }
       .testimonial-body {
         font-size: 24px;
-        color: #f2efe5;
         font-weight: bold;
         font-style: italic;
         text-align: justify;
@@ -302,7 +300,6 @@ body {
         align-self: flex-start;
         padding-right: 5%;
         font-size: 18px;
-        color: #f2efe5;
         font-style: italic;
         text-align: center;
         text-transform: uppercase;
@@ -332,7 +329,7 @@ body {
         }
         .teammate-card {
           align-items: center;
-          background-color: #c5c2b7;
+          background-color: $background-card;
           color: black;
           font-family: "Times New Roman";
           text-align: center;
@@ -353,7 +350,7 @@ body {
             grid-row-start: 3;
             text-align: left;
             font-size: 14px;
-            color: black;
+            color: $main;
             font-weight: 400;
             font-family: "Open Sans";
           }
@@ -395,15 +392,15 @@ body {
               padding: 0 10px 0 10px;
               height: 40px;
               width: calc(100% - 22px);
-              border: 1px solid black;
+              border: 1px solid $main;
               outline: none;
             }
           }
           button {
             width: 300px;
             height: 40px;
-            background-color: #9e9c8b;
-            color: white;
+            background-color: $background-button;
+            color: $text-btn;
             font-family: "Times New Roman";
             border: none;
           }
@@ -421,7 +418,7 @@ body {
       grid-template-rows: 1fr 0.3fr 1fr;
       justify-items: center;
       font-family: "Times New Roman";
-      color: #f2efe5;
+      color: $main-light;
       font-weight: bold;
       height: 350px;
       .twicon {
@@ -439,7 +436,6 @@ body {
         grid-column-start: 2;
         font-size: 22px;
         line-height: 22px;
-        color: #f2efe5;
         font-weight: bold;
         font-style: italic;
       }
@@ -457,7 +453,7 @@ body {
       }
 
       .gallery-part {
-        background-color: #afaeaa;
+        background-color: $background-part;
         grid-column-start: 1;
         grid-column-end: 3;
         display: grid;
@@ -468,7 +464,7 @@ body {
       }
     }
     .contact {
-      background-color: #e9e7d9;
+      background-color: $background-contact;
       display: grid;
       grid-template-columns: 1fr 1fr;
       .contact-titles {
@@ -525,7 +521,7 @@ body {
           font-family: "Times New Roman";
           line-height: 24px;
           width: auto;
-          border: 1px solid black;
+          border: 1px solid $main;
           padding: 20px;
         }
         input::placeholder,
@@ -538,9 +534,9 @@ body {
         button {
           align-self: flex-start;
           width: 85%;
-          background-color: #9e9c8b;
+          background-color: $background-button;
           font-family: "Times New Roman";
-          color: white;
+          color: $text-btn;
           padding: 20px;
           text-transform: uppercase;
           border: none;
@@ -559,14 +555,14 @@ body {
   }
 
   .footer {
-    background-color: #aeaeae;
+    background-color: $background-footer;
     display: inline-grid;
     grid-template-rows: 1fr 2fr 1fr;
     align-items: center;
     .copywr {
       font-size: 12px;
       line-height: 22px;
-      color: #000000;
+      color: $main;
       font-weight: 400;
       font-family: "Roboto";
       text-align: center;
