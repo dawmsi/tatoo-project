@@ -1,6 +1,35 @@
+//?Need variables?
+$main: #000;
+
+$part: #010101;
+
+$text-btn: #fff;
+$text-nav: #1a1a1a;
+$text-form: #333333;
+$text-placeholder: #9c9a95;
+
+$mark-map: #8b623c;
+
+$background-main: #f2efe5;
+$background-card: #cbc7b5;
+$background-button: #999679;
+$background-part: #afab9b;
+$background-contact: #e7e4cf;
+$background-footer: #adadad;
+
+$transparent-about: #cfccba;
+$transparent-gallery: #9a977a;
+$hover-shadow: #646253;
+
+$icon-facebook: #1063fc;
+$icon-twitter: #3ac9e8;
+$icon-tumblr: #f1f1f1;
+$icon-linkedin: #3b83f6;
+$icon-instagram: #f1a55d;
+$icon-google: #b32e2e;
+
 // !module will be mark like !Md
 // *first come modules parts
-
 // !Md
 // navigations
 .container {
@@ -18,8 +47,8 @@
       gap: 25px;
       grid-auto-flow: column;
       li:hover {
-        border-bottom: 2px solid black;
-        text-shadow: 0 0 1px black;
+        border-bottom: 2px solid $main;
+        text-shadow: 0 0 1px $main;
       }
     }
     .menu-btn {
@@ -27,13 +56,13 @@
       font-size: 12px;
       letter-spacing: 0px;
       line-height: 24px;
-      color: #1a1a1a;
+      color: $text-nav;
       font-family: "Times New Roman";
       font-weight: 600;
       text-align: center;
       text-transform: uppercase;
       a {
-        color: black;
+        color: $main;
       }
     }
     .logo {
@@ -49,9 +78,9 @@
 // !Md
 // *parts logos
 .part {
-  border: 10px solid black;
+  border: 10px solid $part;
   font-size: 36px;
-  color: #010101;
+  color: $part;
   font-weight: bold;
   font-family: "Times New Roman";
   text-align: center;
@@ -71,7 +100,7 @@
 // !Md
 //soc btns
 .social-btns > .genericon:hover {
-  text-shadow: 2px 2px 5px #1d1d1d;
+  text-shadow: 2px 2px 5px $main;
 }
 .social-btns {
   display: grid;
@@ -81,25 +110,25 @@
     font-size: 30px;
     width: 30px;
     height: inherit;
-    color: black;
+    color: $main;
   }
   :nth-child(1):hover {
-    color: #1063fc;
+    color: $icon-facebook;
   }
   :nth-child(2):hover {
-    color: #3ac9e8;
+    color: $icon-twitter;
   }
   :nth-child(3):hover {
-    color: #f1f1f1;
+    color: $icon-tumblr;
   }
   :nth-child(4):hover {
-    color: #3b83f6;
+    color: $icon-linkedin;
   }
   :nth-child(5):hover {
-    color: #f1a55d;
+    color: $icon-instagram;
   }
   :nth-child(6):hover {
-    color: #b32e2e;
+    color: $icon-google;
   }
 }
 
@@ -124,7 +153,7 @@
       "search search search"
       "share info like";
     a:hover {
-      text-shadow: 0 0 5px #646253;
+      text-shadow: 0 0 5px $hover-shadow;
     }
     a:nth-child(1) {
       grid-area: search;
@@ -141,7 +170,7 @@
     .genericon {
       font-size: 28px;
       font-weight: 600;
-      color: black;
+      color: $main;
       width: 28px;
       height: 28px;
     }
@@ -374,6 +403,7 @@ body {
             width: 300px;
             height: 40px;
             background-color: #9e9c8b;
+            color: white;
             font-family: "Times New Roman";
             border: none;
           }
