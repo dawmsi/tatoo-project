@@ -162,6 +162,10 @@ button:hover {
   text-shadow: 0 0 1px #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f2efe5;
   display: grid;

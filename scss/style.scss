@@ -28,6 +28,12 @@ $icon-linkedin: #3b83f6;
 $icon-instagram: #f1a55d;
 $icon-google: #b32e2e;
 
+//mobile
+@media screen {
+}
+
+//desktop
+
 // !module will be mark like !Md
 // *first come modules parts
 
@@ -206,6 +212,10 @@ button:hover {
 
 //!_________________________________________________
 // main styling
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: $main-light;
