@@ -251,7 +251,7 @@ body .main .team {
   grid-template-rows: 1fr 1fr;
 }
 body .main .team .team-part {
-  background-image: url(..../images/team.png);
+  background-image: url(../images/team.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
