@@ -18,6 +18,7 @@
 .container .menu .half-nav li:hover {
   border-bottom: 2px solid #000;
   text-shadow: 0 0 1px #000;
+  transition: text-shadow 0.1s;
 }
 .container .menu .menu-btn {
   border-bottom: 2px solid transparent;
@@ -68,6 +69,9 @@
   grid-template-columns: repeat(6, 30px);
   justify-content: space-evenly;
 }
+.social-btns .genericon:hover {
+  transition: all 0.1s;
+}
 .social-btns .genericon {
   font-size: 30px;
   width: 30px;
@@ -97,6 +101,7 @@
   position: relative;
 }
 .image-container .hover-panel {
+  background-color: transparent;
   padding: 25% 10%;
   visibility: hidden;
   top: 0;
@@ -112,7 +117,11 @@
   grid-template-areas: "search search search" "share info like";
 }
 .image-container .hover-panel a:hover {
-  text-shadow: 0 0 5px #646253;
+  text-shadow: 0 0 4px #646253;
+  transition: all 0.1s;
+  font-size: 38px;
+  width: 38px;
+  height: 38px;
 }
 .image-container .hover-panel a:nth-child(1) {
   grid-area: search;
@@ -208,7 +217,7 @@ body .main .about .about-ph .p2 {
   padding: 10px 15px;
 }
 body .main .about .hover-panel {
-  background-color: rgba(207, 204, 186, 0.6);
+  background-color: rgba(207, 204, 186, 0.7);
 }
 body .main .testimonial {
   background-image: url("../images/tr.png");
@@ -404,7 +413,7 @@ body .main .gallery {
   min-height: 1200px;
 }
 body .main .gallery .hover-panel {
-  background-color: rgba(150, 148, 136, 0.6);
+  background-color: rgba(153, 150, 127, 0.6);
 }
 body .main .gallery .gallery-part {
   background-color: #afab9b;

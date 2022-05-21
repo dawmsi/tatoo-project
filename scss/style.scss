@@ -17,8 +17,8 @@ $background-part: #afab9b;
 $background-contact: #e7e4cf;
 $background-footer: #adadad;
 
-$transparent-about: rgba(207, 204, 186, 0.6);
-$transparent-gallery: rgba(154, 151, 122, 0.6);
+$transparent-about: rgba(207, 204, 186, 0.7);
+$transparent-gallery: rgba(153, 150, 127, 0.6);
 $hover-shadow: #646253;
 
 $icon-facebook: #1063fc;
@@ -30,6 +30,7 @@ $icon-google: #b32e2e;
 
 // !module will be mark like !Md
 // *first come modules parts
+
 // !Md
 // navigations
 .container {
@@ -49,6 +50,7 @@ $icon-google: #b32e2e;
       li:hover {
         border-bottom: 2px solid $main;
         text-shadow: 0 0 1px $main;
+        transition: text-shadow 0.1s;
       }
     }
     .menu-btn {
@@ -106,6 +108,9 @@ $icon-google: #b32e2e;
   display: grid;
   grid-template-columns: repeat(6, 30px);
   justify-content: space-evenly;
+  .genericon:hover {
+    transition: all 0.1s;
+  }
   .genericon {
     font-size: 30px;
     width: 30px;
@@ -137,6 +142,7 @@ $icon-google: #b32e2e;
 .image-container {
   position: relative;
   .hover-panel {
+    background-color: transparent;
     padding: 25% 10%;
     visibility: hidden;
     top: 0;
@@ -153,7 +159,11 @@ $icon-google: #b32e2e;
       "search search search"
       "share info like";
     a:hover {
-      text-shadow: 0 0 5px $hover-shadow;
+      text-shadow: 0 0 4px $hover-shadow;
+      transition: all 0.1s;
+      font-size: 38px;
+      width: 38px;
+      height: 38px;
     }
     a:nth-child(1) {
       grid-area: search;
@@ -449,7 +459,7 @@ body {
       grid-template-rows: repeat(4, 1fr);
       min-height: 1200px;
       .hover-panel {
-        background-color: rgba(150, 148, 136, 0.6);
+        background-color: $transparent-gallery;
       }
 
       .gallery-part {
