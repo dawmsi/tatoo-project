@@ -458,6 +458,8 @@ html {
                 background-position: center;
                 background-size: cover;
                 background-attachment: fixed;
+                z-index: -1;
+                position: fixed;
                 display: grid;
                 justify-items: center;
                 font-family: 'Times New Roman';
@@ -469,6 +471,7 @@ html {
                     background-position: center center;
                     background-repeat: no-repeat;
                     grid-column-start: 2;
+
                     width: 43px;
                     height: 35px;
                     align-self: end;

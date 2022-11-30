@@ -401,6 +401,8 @@ html body .main .twitter {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  z-index: -1;
+  position: fixed;
   display: grid;
   justify-items: center;
   font-family: "Times New Roman";
