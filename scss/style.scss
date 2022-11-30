@@ -390,7 +390,7 @@ html {
                         height: 100%;
                         width: 100%;
                         display: grid;
-                        grid-template-rows: 0.1fr 2fr 2fr 2fr 0.1fr;
+                        grid-template-rows: 0.1fr 0.5fr 1fr 0.5fr 0.1fr;
                         grid-template-columns: 0.82fr;
                         justify-content: space-around;
                         align-items: center;
@@ -417,7 +417,7 @@ html {
                         justify-content: center;
                         text-align: left;
                         height: 100%;
-                        grid-template-rows: 1.8fr 0.6fr 0.6fr 2fr;
+                        grid-template-rows: 1.5fr 0.6fr 0.6fr 1.8fr;
                         grid-template-columns: 300px;
                         justify-items: center;
                         text-transform: uppercase;
