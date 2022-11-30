@@ -266,6 +266,7 @@ button:hover {
 html {
     scroll-behavior: smooth;
     body {
+        position: relative;
         background-color: $main-light;
         display: grid;
         grid-template-columns: 1fr;
@@ -277,8 +278,8 @@ html {
             background-image: url(../images/arrow-up.png);
             background-repeat: no-repeat;
             background-size: contain;
-            height: 2rem;
-            width: 2rem;
+            height: 50px;
+            width: 50px;
             z-index: 10;
             text-decoration: none;
         }

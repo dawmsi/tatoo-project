@@ -215,6 +215,7 @@ html {
   scroll-behavior: smooth;
 }
 html body {
+  position: relative;
   background-color: #f2efe5;
   display: grid;
   grid-template-columns: 1fr;
@@ -226,8 +227,8 @@ html body .arrow-up {
   background-image: url(../images/arrow-up.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 2rem;
-  width: 2rem;
+  height: 50px;
+  width: 50px;
   z-index: 10;
   text-decoration: none;
 }
