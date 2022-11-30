@@ -274,15 +274,16 @@ html {
         .arrow-up {
             z-index: 100;
             position: fixed;
-            bottom: 3%;
-            right: 3%;
+            bottom: 1rem;
+            right: 1rem;
             background-image: url(../images/arrow-up.png);
             background-repeat: no-repeat;
             background-size: cover;
-            height: 50px;
-            width: 50px;
+            height: 40px;
+            width: 40px;
+            padding: -3px;
             text-decoration: none;
-            opacity: 0.7;
+            opacity: 0.88;
             border-radius: 50%;
             box-shadow: 0 0 6px rgba(0, 0, 0, 0.668);
         }
