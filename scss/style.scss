@@ -272,16 +272,19 @@ html {
         grid-template-columns: 1fr;
 
         .arrow-up {
+            z-index: 100;
             position: fixed;
-            bottom: 6%;
-            right: 12%;
+            bottom: 3%;
+            right: 3%;
             background-image: url(../images/arrow-up.png);
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
             height: 50px;
             width: 50px;
-            z-index: 10;
             text-decoration: none;
+            opacity: 0.7;
+            border-radius: 50%;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.668);
         }
         .header {
             background-image: url(../images/Slide.png);
