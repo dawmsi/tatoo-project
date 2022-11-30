@@ -219,6 +219,18 @@ html body {
   display: grid;
   grid-template-columns: 1fr;
 }
+html body .arrow-up {
+  position: fixed;
+  bottom: 6%;
+  right: 12%;
+  background-image: url(../images/arrow-up.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 2rem;
+  width: 2rem;
+  z-index: 10;
+  text-decoration: none;
+}
 html body .header {
   background-image: url(../images/Slide.png);
   background-repeat: no-repeat;

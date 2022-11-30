@@ -268,8 +268,20 @@ html {
     body {
         background-color: $main-light;
         display: grid;
-
         grid-template-columns: 1fr;
+
+        .arrow-up {
+            position: fixed;
+            bottom: 6%;
+            right: 12%;
+            background-image: url(../images/arrow-up.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 2rem;
+            width: 2rem;
+            z-index: 10;
+            text-decoration: none;
+        }
         .header {
             background-image: url(../images/Slide.png);
             background-repeat: no-repeat;
