@@ -400,7 +400,7 @@ html body .main .twitter {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   z-index: -1;
   position: fixed;
   display: grid;
