@@ -4,6 +4,48 @@
   background-position: center center;
 }
 
+.dl {
+  position: relative;
+  background-color: transparent;
+}
+
+.dl .dt {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  font-family: "Times New Roman";
+  background-color: #000;
+  z-index: 50;
+  text-decoration: none;
+  box-shadow: #000;
+}
+
+.dt a {
+  color: #f2efe5;
+  text-transform: uppercase;
+}
+
+.arrow-up {
+  z-index: 100;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-image: url(../images/arrow-up.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  padding: -3px;
+  text-decoration: none;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.668);
+}
+
 @media (max-width: 820px) {
   .container {
     width: 100%;
@@ -219,22 +261,6 @@ html body {
   background-color: #f2efe5;
   display: grid;
   grid-template-columns: 1fr;
-}
-html body .arrow-up {
-  z-index: 100;
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  background-image: url(../images/arrow-up.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 40px;
-  width: 40px;
-  padding: -3px;
-  text-decoration: none;
-  opacity: 0.88;
-  border-radius: 50%;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.668);
 }
 html body .header {
   background-image: url(../images/Slide.png);
